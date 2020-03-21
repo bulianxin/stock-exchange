@@ -1,8 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## 产品设计思考
+愿景：
+	让加密货币可以自由交易和使用。
+使命：
+	实现如同中心化交易所一样便捷的、去中心化加密货币交易所。
+价值观：
+	自由、诚实。
 
-设计一款去中心化交易所
+需求设计：
+	实现如同中心化交易所一样便捷的、去中心化加密货币交易所。
+	1、对于有钱包用户，直接提供交易撮合服务；
+	2、对于无钱包用户，提供钱包服务；
+	3、交易的便捷性、易用性；
+	4、交易和账户资产的安全性；
+
+实现方式：
 1、用blockstack来完成用户身份管理、提供钱包服务；
 1.1、对于有钱包用户，直接提供撮合服务；
 1.2、对于无钱包用户，提供钱包服务；
@@ -12,6 +25,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3.2、如何降低小额交易的费用：大额交易可以直接走链上，小额交易走链上的费用控制；
 3.3、交易和账户安全性保护；
 
+目前进度：
+V0.0.0
 
 ## Available Scripts
 
